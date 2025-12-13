@@ -13,7 +13,7 @@ fi
 mkdir -p .github/workflows
 mkdir -p spec/system spec/model spec/factories
 
-BASE_URL="https://raw.githubusercontent.com/your-org/rails-template/main"
+BASE_URL="https://raw.githubusercontent.com/ryusei1212/curl_test/main"
 
 curl -fsSL "$BASE_URL/.github/workflows/review.yml" \
   -o .github/workflows/review.yml
