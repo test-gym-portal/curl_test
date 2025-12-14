@@ -27,10 +27,10 @@ curl -fsSL "$BASE_URL/spec/system/task_1_spec.rb" \
 curl -fsSL "$BASE_URL/spec/system/task_2_spec.rb" \
   -o spec/system/task_2_spec.rb
 
-curl -fsSL "$BASE_URL/spec/factories/user.rb" \
-  -o spec/factories/user.rb
+curl -fsSL "$BASE_URL/spec/factories/users.rb" \
+  -o spec/factories/users.rb
 
-curl -fsSL "$BASE_URL/spec/factories/post.rb" \
-  -o spec/factories/post.rb
+curl -fsSL "$BASE_URL/spec/factories/posts.rb" \
+  -o spec/factories/posts.rb
 
 echo "✅ Done!"
