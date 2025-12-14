@@ -18,6 +18,9 @@ BASE_URL="https://raw.githubusercontent.com/ryusei1212/curl_test/main"
 curl -fsSL "$BASE_URL/.github/workflows/review.yml" \
   -o .github/workflows/review.yml
 
+curl -fsSL "$BASE_URL/.github/workflows/PULL_REQUEST_TEMPLATE.md" \
+  -o .github/workflows/PULL_REQUEST_TEMPLATE.md
+
 curl -fsSL "$BASE_URL/spec/system/task_1_spec.rb" \
   -o spec/system/task_1_spec.rb
 
